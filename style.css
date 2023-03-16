@@ -1,0 +1,56 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(rgb(160, 91, 0),coral,yellowgreen);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+    border-radius: 20px;
+    overflow: hidden;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h1{
+    text-align: center;
+}
+.wrapper{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 20px;
+    width: 80vh;
+    margin: auto;
+}
+.text-cal{
+    
+    margin: auto;
+    background:linear-gradient(yellowgreen,tan);
+    align-items: center;
+    max-width: min-content;
+    min-height: 50vh;
+    border-radius: 10px;
+    overflow: hidden;
+    
+}
+.text-nu button{
+    /* display: flex; */
+    /* justify-content: space-between; */
+    font-size: xx-large;
+    position: relative;
+    width: 80px;
+    border: none;
+    border-radius: 10px;
+    padding: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+    margin: 5px;
+}
+button:hover{
+    background-color: inherit;
+    cursor: pointer;
+}
+button:active{
+    background-color: blue;
+}
+.oper{
+    background: palevioletred;
+}
