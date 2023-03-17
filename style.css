@@ -19,16 +19,22 @@ h1{
     border-radius: 20px;
     width: 80vh;
     margin: auto;
+    height: 100%;
+    
 }
 .text-cal{
     
     margin: auto;
+    
     background:linear-gradient(yellowgreen,tan);
     align-items: center;
     max-width: min-content;
-    min-height: 50vh;
+    max-height: 100vh;
     border-radius: 10px;
     overflow: hidden;
+    position: relative;
+    
+    justify-content: center;
     
 }
 .text-nu button{

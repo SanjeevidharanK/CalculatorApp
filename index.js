@@ -27,7 +27,7 @@ document.querySelectorAll('button').forEach((button) => {
     button.addEventListener('click', () => {
         const value = button.textContent.trim();
 
-        if (value === 'C') {
+        if (value === 'AC') {
             clearInput();
         } else if (value === '←') {
             deleteInput();
